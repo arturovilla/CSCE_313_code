@@ -1,0 +1,311 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 169676 10656 ?        Ss   Mar05   0:07 /sbin/init auto noprompt
+root           2  0.0  0.0      0     0 ?        S    Mar05   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Mar05   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Mar05   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kworker/0:0H-kblockd]
+root           9  0.0  0.0      0     0 ?        I<   Mar05   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Mar05   0:01 [ksoftirqd/0]
+root          11  0.0  0.0      0     0 ?        I    Mar05   1:52 [rcu_sched]
+root          12  0.0  0.0      0     0 ?        S    Mar05   0:02 [migration/0]
+root          13  0.0  0.0      0     0 ?        S    Mar05   0:00 [idle_inject/0]
+root          14  0.0  0.0      0     0 ?        S    Mar05   0:00 [cpuhp/0]
+root          15  0.0  0.0      0     0 ?        S    Mar05   0:00 [cpuhp/1]
+root          16  0.0  0.0      0     0 ?        S    Mar05   0:00 [idle_inject/1]
+root          17  0.0  0.0      0     0 ?        S    Mar05   0:04 [migration/1]
+root          18  0.0  0.0      0     0 ?        S    Mar05   0:01 [ksoftirqd/1]
+root          20  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kworker/1:0H-kblockd]
+root          21  0.0  0.0      0     0 ?        S    Mar05   0:00 [kdevtmpfs]
+root          22  0.0  0.0      0     0 ?        I<   Mar05   0:00 [netns]
+root          23  0.0  0.0      0     0 ?        S    Mar05   0:00 [rcu_tasks_kthre]
+root          24  0.0  0.0      0     0 ?        S    Mar05   0:00 [rcu_tasks_rude_]
+root          25  0.0  0.0      0     0 ?        S    Mar05   0:00 [rcu_tasks_trace]
+root          26  0.0  0.0      0     0 ?        S    Mar05   0:00 [kauditd]
+root          28  0.0  0.0      0     0 ?        S    Mar05   0:00 [khungtaskd]
+root          29  0.0  0.0      0     0 ?        S    Mar05   0:00 [oom_reaper]
+root          30  0.0  0.0      0     0 ?        I<   Mar05   0:00 [writeback]
+root          31  0.0  0.0      0     0 ?        S    Mar05   0:00 [kcompactd0]
+root          32  0.0  0.0      0     0 ?        SN   Mar05   0:00 [ksmd]
+root          33  0.0  0.0      0     0 ?        SN   Mar05   0:01 [khugepaged]
+root          80  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kintegrityd]
+root          81  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kblockd]
+root          82  0.0  0.0      0     0 ?        I<   Mar05   0:00 [blkcg_punt_bio]
+root          84  0.0  0.0      0     0 ?        I<   Mar05   0:00 [tpm_dev_wq]
+root          85  0.0  0.0      0     0 ?        I<   Mar05   0:00 [ata_sff]
+root          86  0.0  0.0      0     0 ?        I<   Mar05   0:00 [md]
+root          87  0.0  0.0      0     0 ?        I<   Mar05   0:00 [edac-poller]
+root          88  0.0  0.0      0     0 ?        I<   Mar05   0:00 [devfreq_wq]
+root          89  0.0  0.0      0     0 ?        S    Mar05   0:00 [watchdogd]
+root          91  0.0  0.0      0     0 ?        I<   Mar05   0:00 [pm_wq]
+root          93  0.0  0.0      0     0 ?        S    Mar05   0:02 [kswapd0]
+root          94  0.0  0.0      0     0 ?        S    Mar05   0:00 [ecryptfs-kthrea]
+root          96  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kthrotld]
+root          97  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/24-pciehp]
+root          98  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/25-pciehp]
+root          99  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/26-pciehp]
+root         100  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/27-pciehp]
+root         101  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/28-pciehp]
+root         102  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/29-pciehp]
+root         103  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/30-pciehp]
+root         104  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/31-pciehp]
+root         105  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/32-pciehp]
+root         106  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/33-pciehp]
+root         107  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/34-pciehp]
+root         108  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/35-pciehp]
+root         109  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/36-pciehp]
+root         110  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/37-pciehp]
+root         111  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/38-pciehp]
+root         112  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/39-pciehp]
+root         113  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/40-pciehp]
+root         114  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/41-pciehp]
+root         115  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/42-pciehp]
+root         116  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/43-pciehp]
+root         117  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/44-pciehp]
+root         118  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/45-pciehp]
+root         119  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/46-pciehp]
+root         120  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/47-pciehp]
+root         121  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/48-pciehp]
+root         122  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/49-pciehp]
+root         123  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/50-pciehp]
+root         124  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/51-pciehp]
+root         125  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/52-pciehp]
+root         126  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/53-pciehp]
+root         127  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/54-pciehp]
+root         128  0.0  0.0      0     0 ?        S    Mar05   0:00 [irq/55-pciehp]
+root         129  0.0  0.0      0     0 ?        I<   Mar05   0:00 [acpi_thermal_pm]
+root         130  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_0]
+root         131  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_0]
+root         132  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_1]
+root         133  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_1]
+root         135  0.0  0.0      0     0 ?        I<   Mar05   0:00 [vfio-irqfd-clea]
+root         136  0.0  0.0      0     0 ?        I<   Mar05   0:00 [ipv6_addrconf]
+root         146  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kstrp]
+root         149  0.0  0.0      0     0 ?        I<   Mar05   0:00 [zswap-shrink]
+root         155  0.0  0.0      0     0 ?        I<   Mar05   0:00 [charger_manager]
+root         201  0.0  0.0      0     0 ?        I<   Mar05   0:00 [mpt_poll_0]
+root         202  0.0  0.0      0     0 ?        I<   Mar05   0:00 [mpt/0]
+root         203  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_2]
+root         204  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_2]
+root         205  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_3]
+root         206  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_3]
+root         207  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_4]
+root         208  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_4]
+root         209  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_5]
+root         210  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_5]
+root         211  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_6]
+root         212  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_6]
+root         213  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_7]
+root         214  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_7]
+root         215  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_8]
+root         216  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_8]
+root         217  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_9]
+root         218  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_9]
+root         219  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_10]
+root         220  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_10]
+root         221  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_11]
+root         223  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_11]
+root         224  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_12]
+root         225  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_12]
+root         226  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_13]
+root         227  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_13]
+root         228  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_14]
+root         229  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_14]
+root         230  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_15]
+root         231  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_15]
+root         232  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_16]
+root         233  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_16]
+root         234  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_17]
+root         235  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_17]
+root         236  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_18]
+root         237  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_18]
+root         238  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_19]
+root         239  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_19]
+root         240  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_20]
+root         241  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_20]
+root         242  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_21]
+root         243  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_21]
+root         244  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_22]
+root         245  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_22]
+root         246  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_23]
+root         247  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_23]
+root         248  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_24]
+root         249  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_24]
+root         250  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_25]
+root         251  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_25]
+root         252  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_26]
+root         253  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_26]
+root         254  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_27]
+root         255  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_27]
+root         256  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_28]
+root         257  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_28]
+root         258  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_29]
+root         259  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_29]
+root         260  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_30]
+root         261  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_30]
+root         262  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_31]
+root         263  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_31]
+root         290  0.0  0.0      0     0 ?        S    Mar05   0:00 [scsi_eh_32]
+root         291  0.0  0.0      0     0 ?        I<   Mar05   0:00 [scsi_tmf_32]
+root         293  0.0  0.0      0     0 ?        I<   Mar05   0:03 [kworker/1:1H-kblockd]
+root         296  0.0  0.0      0     0 ?        I<   Mar05   0:03 [kworker/0:1H-kblockd]
+root         316  0.0  0.0      0     0 ?        S    Mar05   0:03 [jbd2/sda5-8]
+root         317  0.0  0.0      0     0 ?        I<   Mar05   0:00 [ext4-rsv-conver]
+root         356  0.0  0.4 127564 16268 ?        S<s  Mar05   0:02 /lib/systemd/systemd-journald
+root         381  0.0  0.0      0     0 ?        S    Mar05   0:27 [irq/16-vmwgfx]
+root         383  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop2]
+root         384  0.0  0.0      0     0 ?        I<   Mar05   0:00 [ttm_swap]
+root         388  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop3]
+root         389  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop4]
+root         395  0.0  0.1  24204  5096 ?        Ss   Mar05   0:00 /lib/systemd/systemd-udevd
+root         400  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop5]
+root         406  0.0  0.0 150668   284 ?        Ssl  Mar05   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         409  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop6]
+root         411  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop8]
+root         430  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop9]
+root         435  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop11]
+root         436  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop12]
+root         437  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop13]
+root         481  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kworker/u257:1-hci0]
+root         504  0.0  0.0      0     0 ?        I<   Mar05   0:00 [cryptd]
+systemd+     659  0.0  0.2  24232  9808 ?        Ss   Mar05   0:03 /lib/systemd/systemd-resolved
+systemd+     660  0.0  0.1  90456  5316 ?        Ssl  Mar05   0:00 /lib/systemd/systemd-timesyncd
+root         692  0.0  0.2  50136  8020 ?        Ss   Mar05   0:00 /usr/bin/VGAuthService
+root         695  0.3  0.1 240556  6600 ?        Ssl  Mar05   7:21 /usr/bin/vmtoolsd
+root         718  0.0  0.1 238252  7056 ?        Ssl  Mar05   0:05 /usr/lib/accountsservice/accounts-daemon
+root         719  0.0  0.0   2548   780 ?        Ss   Mar05   0:02 /usr/sbin/acpid
+avahi        726  0.0  0.0   8536  3204 ?        Ss   Mar05   0:03 avahi-daemon: running [ubuntu.local]
+root         727  0.0  0.1   8368  4560 ?        Ss   Mar05   0:00 /usr/lib/bluetooth/bluetoothd
+root         729  0.0  0.0   9420  2988 ?        Ss   Mar05   0:00 /usr/sbin/cron -f
+message+     732  0.0  0.1  10052  5704 ?        Ss   Mar05   0:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         733  0.0  0.3 335868 13552 ?        Ssl  Mar05   0:08 /usr/sbin/NetworkManager --no-daemon
+root         739  0.0  0.0  81936  3740 ?        Ssl  Mar05   0:06 /usr/sbin/irqbalance --foreground
+root         740  0.0  0.3  39328 13748 ?        Ss   Mar05   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         748  0.0  0.2 241084 10220 ?        Ssl  Mar05   0:01 /usr/lib/policykit-1/polkitd --no-debug
+syslog       760  0.0  0.0 224356  3640 ?        Ssl  Mar05   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         769  0.0  0.1 235776  6124 ?        Ssl  Mar05   0:00 /usr/libexec/switcheroo-control
+root         771  0.0  0.1  16960  7180 ?        Ss   Mar05   0:02 /lib/systemd/systemd-logind
+root         773  0.0  0.2 392900 10124 ?        Ssl  Mar05   0:00 /usr/lib/udisks2/udisksd
+avahi        787  0.0  0.0   8352   236 ?        S    Mar05   0:00 avahi-daemon: chroot helper
+root         827  0.0  0.1 313756  7300 ?        Ssl  Mar05   0:00 /usr/sbin/ModemManager --filter-policy=strict
+root         843  0.0  0.3 117856 15604 ?        Ssl  Mar05   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         853  0.0  0.1 239616  7540 ?        Ssl  Mar05   0:00 /usr/sbin/gdm3
+rtkit        939  0.0  0.0 152940  2864 ?        SNsl Mar05   0:05 /usr/libexec/rtkit-daemon
+whoopsie     990  0.0  0.3 326864 12212 ?        Ssl  Mar05   0:00 /usr/bin/whoopsie -f
+kernoops     993  0.0  0.0  11264   228 ?        Ss   Mar05   0:03 /usr/sbin/kerneloops --test
+kernoops     995  0.0  0.0  11264  2476 ?        Ss   Mar05   0:03 /usr/sbin/kerneloops
+root        1058  0.0  0.2 252128  8244 ?        Ssl  Mar05   0:00 /usr/lib/upower/upowerd
+geoclue     1150  0.0  0.3 435036 14556 ?        Ssl  Mar05   0:00 /usr/libexec/geoclue
+colord      1296  0.0  0.2 246196 10328 ?        Ssl  Mar05   0:00 /usr/libexec/colord
+root        1329  0.0  0.2 315456 10448 ?        Sl   Mar05   0:00 gdm-session-worker [pam/gdm-password]
+arturo      1338  0.0  0.4  28492 17712 ?        Ss   Mar05   0:03 /lib/systemd/systemd --user
+arturo      1339  0.0  0.0 103624  1408 ?        S    Mar05   0:00 (sd-pam)
+arturo      1344  0.0  0.3 1482216 14112 ?       Ssl  Mar05   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+arturo      1346  0.0  0.3 724652 14408 ?        SNsl Mar05   0:01 /usr/libexec/tracker-miner-fs
+arturo      1349  0.0  0.1 240192  6092 ?        Sl   Mar05   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+arturo      1353  0.0  0.2  11768  8272 ?        Ss   Mar05   0:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+arturo      1358  0.0  0.1 239812  6712 ?        Ssl  Mar05   0:00 /usr/libexec/gvfsd
+arturo      1374  0.0  0.1 378344  5992 ?        Sl   Mar05   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+arturo      1375  0.0  0.2 313928  8016 ?        Ssl  Mar05   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+arturo      1389  0.0  0.1 238112  5636 ?        Ssl  Mar05   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1396  0.0  0.0      0     0 ?        S<   Mar05   0:00 [krfcommd]
+arturo      1397  0.0  0.1 316728  7376 ?        Ssl  Mar05   0:23 /usr/libexec/gvfs-afc-volume-monitor
+arturo      1402  0.0  0.1 235876  5484 ?        Ssl  Mar05   0:00 /usr/libexec/gvfs-goa-volume-monitor
+arturo      1406  0.0  0.3 546128 12160 ?        Sl   Mar05   0:00 /usr/libexec/goa-daemon
+arturo      1410  0.0  0.1 164020  6088 tty2     Ssl+ Mar05   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+arturo      1413  0.2  1.5 329260 62776 tty2     Sl+  Mar05   5:03 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+arturo      1417  0.0  0.1 388488  6436 ?        Sl   Mar05   0:01 /usr/libexec/goa-identity-service
+arturo      1420  0.0  0.1 235700  5564 ?        Ssl  Mar05   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+arturo      1454  0.0  0.2 188416  9876 tty2     Sl+  Mar05   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+arturo      1521  0.0  0.0   6040    32 ?        Ss   Mar05   0:02 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+arturo      1538  0.0  0.1 305408  5920 ?        Ssl  Mar05   0:00 /usr/libexec/at-spi-bus-launcher
+arturo      1543  0.0  0.0   7248  3560 ?        S    Mar05   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+arturo      1549  0.0  0.0  90064  3736 ?        Ssl  Mar05   0:00 /usr/libexec/gnome-session-ctl --monitor
+arturo      1556  0.0  0.2 484308 11700 ?        Ssl  Mar05   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+arturo      1570  0.3  5.4 3784772 217956 ?      Ssl  Mar05   8:06 /usr/bin/gnome-shell
+arturo      1591  0.0  0.1 384684  7080 ?        Sl   Mar05   0:01 ibus-daemon --panel disable --xim
+arturo      1595  0.0  0.1 236524  6200 ?        Sl   Mar05   0:00 /usr/libexec/ibus-dconf
+arturo      1596  0.0  0.4 275660 16472 ?        Sl   Mar05   0:01 /usr/libexec/ibus-extension-gtk3
+arturo      1600  0.0  0.3 197940 12920 ?        Sl   Mar05   0:00 /usr/libexec/ibus-x11 --kill-daemon
+arturo      1603  0.0  0.1 236504  6656 ?        Sl   Mar05   0:00 /usr/libexec/ibus-portal
+arturo      1612  0.0  0.1 162836  6828 ?        Sl   Mar05   0:02 /usr/libexec/at-spi2-registryd --use-gnome-session
+arturo      1618  0.0  0.1 235596  4008 ?        Ssl  Mar05   0:00 /usr/libexec/xdg-permission-store
+arturo      1623  0.0  0.2 581100 10440 ?        Sl   Mar05   0:00 /usr/libexec/gnome-shell-calendar-server
+arturo      1631  0.0  0.3 1004656 13572 ?       Ssl  Mar05   0:00 /usr/libexec/evolution-source-registry
+arturo      1638  0.0  0.3 1182800 13764 ?       Ssl  Mar05   0:00 /usr/libexec/evolution-calendar-factory
+arturo      1648  0.0  0.1 156336  5492 ?        Sl   Mar05   0:00 /usr/libexec/dconf-service
+arturo      1649  0.0  0.3 755112 12336 ?        Ssl  Mar05   0:00 /usr/libexec/evolution-addressbook-factory
+arturo      1656  0.0  0.1 162336  6084 ?        Ssl  Mar05   0:00 /usr/libexec/gvfsd-metadata
+arturo      1671  0.0  0.3 2598536 14804 ?       Sl   Mar05   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+arturo      1674  0.0  0.1 314072  7176 ?        Sl   Mar05   0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+arturo      1688  0.0  0.1 309648  5644 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-a11y-settings
+arturo      1689  0.0  0.3 633672 15144 ?        Ssl  Mar05   0:01 /usr/libexec/gsd-color
+arturo      1690  0.0  0.2 373608 11096 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-datetime
+arturo      1698  0.0  0.1 311796  6848 ?        Ssl  Mar05   0:04 /usr/libexec/gsd-housekeeping
+arturo      1701  0.3  0.5 633052 21792 ?        Sl   Mar05   7:13 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+arturo      1702  0.0  0.4 638668 17796 ?        Sl   Mar05   0:03 /usr/libexec/evolution-data-server/evolution-alarm-notify
+arturo      1703  0.0  0.3 345944 12964 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-keyboard
+arturo      1704  0.0  0.3 762084 15084 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-media-keys
+arturo      1706  0.0  0.3 494064 14108 ?        Ssl  Mar05   0:01 /usr/libexec/gsd-power
+arturo      1707  0.0  0.2 248236  8380 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-print-notifications
+arturo      1710  0.0  0.1 457100  5484 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-rfkill
+arturo      1716  0.0  0.1 235508  5212 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-screensaver-proxy
+arturo      1723  0.0  0.1 464780  7600 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-sharing
+arturo      1724  0.0  0.1 389008  6980 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-smartcard
+arturo      1728  0.0  0.1 319336  7424 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-sound
+arturo      1736  0.0  0.1 384948  6408 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-usb-protection
+arturo      1746  0.0  0.3 345424 12944 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-wacom
+arturo      1747  0.0  0.1 313976  5908 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-wwan
+arturo      1748  0.0  0.4 346600 17388 ?        Ssl  Mar05   0:00 /usr/libexec/gsd-xsettings
+arturo      1762  0.0  0.1 231800  5104 ?        Sl   Mar05   0:00 /usr/libexec/gsd-disk-utility-notify
+arturo      1809  0.0  0.2 342192 10296 ?        Sl   Mar05   0:00 /usr/libexec/gsd-printer
+arturo      1817  0.0  0.1 162696  6252 ?        Sl   Mar05   0:00 /usr/libexec/ibus-engine-simple
+arturo      1824  0.0  9.2 1739116 370136 ?      Sl   Mar05   0:23 /snap/snap-store/518/usr/bin/snap-store --gapplication-service
+arturo      1848  0.0  0.1 531252  5872 ?        Ssl  Mar05   0:00 /usr/libexec/xdg-document-portal
+arturo      3824  0.0  0.7 463852 29452 ?        Sl   Mar05   0:07 update-notifier
+root        4619  0.0  0.0      0     0 ?        I<   Mar05   0:00 [kworker/u257:0-hci0]
+root        5111  0.0  0.0  13688  3284 ?        Ss   Mar05   0:02 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root        7293  0.0  0.1 166468  7312 ?        Sl   Mar05   0:00 gdm-session-worker [pam/gdm-password]
+root        7393  0.0  0.1 166464  7240 ?        Sl   Mar05   0:00 gdm-session-worker [pam/gdm-password]
+root        7729  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop14]
+root        7754  0.0  0.4 933012 17912 ?        Ssl  Mar05   0:19 /usr/lib/snapd/snapd
+root        8092  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop10]
+root        8246  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop1]
+root        8816  0.0  0.0      0     0 ?        S<   Mar05   0:00 [loop0]
+root        9169  0.0  0.1 166464  7184 ?        Sl   Mar05   0:00 gdm-session-worker [pam/gdm-password]
+root       10779  0.0  0.2 166464  8100 ?        Sl   00:02   0:00 gdm-session-worker [pam/gdm-password]
+arturo     11911  0.2  2.9 4918392 118476 ?      SLsl 02:01   2:46 /snap/code/57/usr/share/code/code --no-sandbox .
+arturo     11913  0.0  0.7 359232 29040 ?        S    02:01   0:00 /snap/code/57/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+arturo     11914  0.0  0.7 359232 28740 ?        S    02:01   0:00 /snap/code/57/usr/share/code/code --type=zygote --no-sandbox
+arturo     11949  1.0  2.0 466756 81664 ?        Sl   02:01  13:54 /snap/code/57/usr/share/code/code --type=gpu-process --field-trial-handle=10622732143241385120,5596230284861852452,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --enable-crash-reporter=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel --global-crash-keys=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --gpu-preferences=OAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA== --use-gl=swiftshader-webgl --shared-files
+arturo     11951  0.0  1.0 426508 43296 ?        Sl   02:01   0:02 /snap/code/57/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=10622732143241385120,5596230284861852452,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=network --no-sandbox --enable-crash-reporter=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel --global-crash-keys=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --shared-files=v8_context_snapshot_data:100
+arturo     11970  3.1  9.4 19832864 379416 ?     Sl   02:01  40:25 /snap/code/57/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=10622732143241385120,5596230284861852452,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel --global-crash-keys=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/snap/code/57/usr/share/code/resources/app --node-integration --webview-tag --no-sandbox --no-zygote --native-window-open --preload=/snap/code/57/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#000000 --num-raster-threads=1 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+arturo     11987  0.2  3.4 4731148 137156 ?      Sl   02:01   3:33 /snap/code/57/usr/share/code/code --inspect-port=0 /snap/code/57/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+arturo     11994  0.0  2.6 4803340 106688 ?      Sl   02:01   0:55 /snap/code/57/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=10622732143241385120,5596230284861852452,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-gpu-compositing --lang=en-US --enable-crash-reporter=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel --global-crash-keys=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/snap/code/57/usr/share/code/resources/app --node-integration --no-sandbox --no-zygote --native-window-open --preload=/snap/code/57/usr/share/code/resources/app/out/vs/base/parts/sandbox/electron-browser/preload.js --background-color=#000000 --disable-blink-features=Auxclick --num-raster-threads=1 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+arturo     11995  0.0  1.3 4645796 53528 ?       Rl   02:01   0:06 /snap/code/57/usr/share/code/code /snap/code/57/usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+arturo     12032  0.1  1.3 4669476 54792 ?       Sl   02:01   2:27 /snap/code/57/usr/share/code/code /snap/code/57/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost
+arturo     12052  0.0  0.1  10620  4460 pts/1    Ss+  02:01   0:00 /bin/bash
+arturo     12063  0.2  2.2 1161016 89816 ?       Sl   02:01   3:51 /home/arturo/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools
+root       13424  0.0  0.2 166464  8296 ?        Sl   06:48   0:00 gdm-session-worker [pam/gdm-password]
+arturo     14286  0.0  0.1  11144  5512 pts/2    Ss   09:45   0:00 /bin/bash
+root       14586  0.0  0.1  28448  7924 ?        Ss   10:40   0:00 /usr/sbin/cupsd -l
+root       14588  0.0  0.2 180580 10680 ?        Ssl  10:40   0:00 /usr/sbin/cups-browsed
+arturo     15137  0.0  2.9 908848 116700 ?       SNl  10:52   0:02 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+root       15647  0.0  0.2 166464  8484 ?        Sl   11:44   0:00 gdm-session-worker [pam/gdm-password]
+root       15883  0.0  0.2 166464  8424 ?        Sl   13:31   0:00 gdm-session-worker [pam/gdm-password]
+root       15907  0.0  0.2 166468  8400 ?        Sl   13:34   0:00 gdm-session-worker [pam/gdm-password]
+root       16042  0.0  0.2 166468  8492 ?        Sl   14:33   0:00 gdm-session-worker [pam/gdm-password]
+root       16607  0.0  0.2 166464  8412 ?        Sl   15:28   0:00 gdm-session-worker [pam/gdm-password]
+arturo     20358  0.4  3.8 4769648 155928 ?      Sl   20:59   0:44 /snap/code/57/usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --field-trial-handle=10622732143241385120,5596230284861852452,131072 --enable-features=WebComponentsV0Enabled --disable-features=CookiesWithoutSameSiteMustBeSecure,SameSiteByDefaultCookies,SpareRendererForSitePerProcess --disable-databases --disable-gpu-compositing --lang=en-US --enable-crash-reporter=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel --global-crash-keys=f30033ec-aff1-4c52-9ccc-1cb109f7e48f,no_channel,_companyName=Microsoft,_productName=VSCode,_version=1.54.1 --standard-schemes=vscode-webview,vscode-webview-resource,vscode-file --secure-schemes=vscode-webview,vscode-webview-resource,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-webview-resource,vscode-file --fetch-schemes=vscode-webview,vscode-webview-resource,vscode-file --service-worker-schemes --streaming-schemes --app-path=/snap/code/57/usr/share/code/resources/app --no-sandbox --no-zygote --native-window-open --preload=/snap/code/57/usr/share/code/resources/app/out/vs/workbench/contrib/webview/electron-browser/pre/electron-index.js --context-isolation --background-color=#fff --guest-instance-id=6 --enable-blink-features --disable-blink-features --num-raster-threads=1 --renderer-client-id=16 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root       21644  0.0  0.0      0     0 ?        I    22:34   0:02 [kworker/1:0-events]
+root       21654  0.0  0.2 166468  8456 ?        Sl   22:35   0:00 gdm-session-worker [pam/gdm-password]
+root       21695  0.0  0.0      0     0 ?        I    22:35   0:00 [kworker/0:1-cgroup_destroy]
+root       22059  0.0  0.0      0     0 ?        I    22:46   0:01 [kworker/0:0-events]
+arturo     22097  0.2  4.9 4808252 199780 ?      Sl   22:50   0:07 /home/arturo/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 12063 {313123D2-88E3-467C-AA28-59504657327C}
+root       22112  0.0  0.0      0     0 ?        I    22:51   0:00 [kworker/u256:0-events_unbound]
+arturo     22160  0.0  1.6 4808040 67568 ?       Sl   22:55   0:00 /home/arturo/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv 12063 {6B15B138-B6C5-4C8D-B881-3EB9FB90D033}
+root       22181  0.0  0.0      0     0 ?        I    23:00   0:00 [kworker/u256:2-events_unbound]
+root       22231  0.0  0.0      0     0 ?        I    23:12   0:00 [kworker/1:1-events]
+arturo     22406  0.0  0.0   6188  3476 pts/2    S+   23:26   0:00 ./a.out
+root       22555  0.0  0.0      0     0 ?        I    23:32   0:00 [kworker/1:2-events]
+root       22556  0.0  0.0      0     0 ?        I    23:32   0:00 [kworker/1:3]
+arturo     22568  0.0  0.0  11500  3292 pts/2    R+   23:34   0:00 ps aux

@@ -1,0 +1,2 @@
+total 0
+-rw-rw-r-- 1 arturo arturo 0 Mar  6 23:43 test.txt
